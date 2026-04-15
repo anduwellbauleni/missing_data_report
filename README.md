@@ -29,4 +29,4 @@ This module provides a centralized view of missing data, allowing users to quick
 **Output**
 
 The generated table highlights where data is incomplete and which specific variables are missing, making it easier to take corrective action.
-![Sample Missing Data Report](missing_data_report/samplepic.png)
+![Sample Missing Data Report](/samplepic.png)
