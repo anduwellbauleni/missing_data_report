@@ -1,7 +1,7 @@
 # missing_data_report
 Missing Data Report Module for REDCap
 Overview
-The Missing Data Report Module provides a quick and efficient way to identify incomplete data within a REDCap project. It generates a table summarizing missing values at the form level, helping users monitor data quality and completeness. This is meant to help data management for regular REDCap users who don't have to run queries and also give them the ability to filter by form/crf or event or ID to make visualization simple
+The Missing Data Report Module provides a quick and efficient way to identify incomplete data within a REDCap project. It generates a table summarizing missing values at the form level, helping users monitor data quality and completeness. This is meant to help data management for regular REDCap users who don't have to run queries and also give them the ability to filter by forms/CRFs or event or ID to make visualization simple
 
 Features
 Displays a report with:
