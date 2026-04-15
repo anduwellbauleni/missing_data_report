@@ -4,9 +4,9 @@
   "description": "Generates a per-form missing data report for the current project, accounting for REDCap branching logic and repeated instruments. Displays form name, event, arm, repeat instrument, repeat instance, missing field count, and missing variable names.",
   "authors": [
     {
-      "name": "Research Team",
-      "email": "andybauleni09@gmail.com",
-      "institution": "uamsichi"
+      "name": "Andrew Bauleni",
+      "email": "ambauleni@uams.edu",
+      "institution": "Institute for Community Health Innovation UAMS"
     }
   ],
   "framework-version": 14,
