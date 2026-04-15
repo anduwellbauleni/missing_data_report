@@ -1,0 +1,50 @@
+{
+  "name": "Missing Data Report",
+  "namespace": "uamsichi\\MissingDataReport",
+  "description": "Generates a per-form missing data report for the current project, accounting for REDCap branching logic and repeated instruments. Displays form name, event, arm, repeat instrument, repeat instance, missing field count, and missing variable names.",
+  "authors": [
+    {
+      "name": "Research Team",
+      "email": "andybauleni09@gmail.com",
+      "institution": "uamsichi"
+    }
+  ],
+  "framework-version": 14,
+  "enable-every-page-hooks-on-system-pages": false,
+  "links": {
+    "project": [
+      {
+        "name": "Missing Data Report",
+        "icon": "report",
+        "url": "missing_report.php",
+        "show-header-and-footer": true
+      }
+    ]
+  },
+  "no-auth-pages": [],
+  "css": [
+    "css/missing_report.css"
+  ],
+  "js": [
+    "js/missing_report.js"
+  ],
+  "project-settings": [
+    {
+      "key": "exclude-forms",
+      "name": "Forms to exclude from report (comma-separated form names)",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "key": "exclude-field-types",
+      "name": "Additional field types to exclude (comma-separated, e.g. notes,file)",
+      "required": false,
+      "type": "text"
+    }
+  ],
+  "system-settings": [],
+  "compatibility": {
+    "php-version-min": "7.4.0",
+    "redcap-version-min": "12.0.0"
+  }
+}
